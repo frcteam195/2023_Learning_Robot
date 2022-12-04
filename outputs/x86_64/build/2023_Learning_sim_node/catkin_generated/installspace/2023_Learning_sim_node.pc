@@ -1,0 +1,8 @@
+prefix=/mnt/working/2023_Learning_Robot/catkin_ws/install
+
+Name: 2023_Learning_sim_node
+Description: Description of 2023_Learning_sim_node
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp rospy std_msgs frc_robot_utilities_py_node

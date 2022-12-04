@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Joystick.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Joystick_Status.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Robot_Status.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Current_Limit_Configuration.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Encoder_Config.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Encoder_Configuration.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Encoder_Data.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Encoder_Sensor_Data.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Motor.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Motor_Control.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Motor_Config.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Motor_Configuration.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Motor_Info.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Motor_Status.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/IMU_Sensor_Data.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/IMU_Data.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Cal_Override_Mode.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Solenoid.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Solenoid_Info.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Solenoid_Control.msg;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg/Solenoid_Status.msg"
+services_str = ""
+pkg_name = "rio_control_node"
+dependencies_str = "std_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "rio_control_node;/mnt/working/2023_Learning_Robot/catkin_ws/src/rio_control_node/msg;std_msgs;/opt/ros/noetic/share/std_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python3"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

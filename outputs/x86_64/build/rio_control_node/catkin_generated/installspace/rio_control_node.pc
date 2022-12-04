@@ -1,0 +1,8 @@
+prefix=/mnt/working/2023_Learning_Robot/catkin_ws/install
+
+Name: rio_control_node
+Description: Description of rio_control_node
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_generation nav_msgs network_tables_node

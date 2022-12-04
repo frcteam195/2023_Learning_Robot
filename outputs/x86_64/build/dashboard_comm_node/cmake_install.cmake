@@ -1,8 +1,8 @@
-# Install script for directory: /mnt/working/2022_ROS_Swerve_Robot/catkin_ws/src/dashboard_comm_node
+# Install script for directory: /mnt/working/2023_Learning_Robot/catkin_ws/src/dashboard_comm_node
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/mnt/working/2023_Learning_Robot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,25 +43,25 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/mnt/working/2022_ROS_Swerve_Robot/outputs/x86_64/build/dashboard_comm_node/catkin_generated/installspace/dashboard_comm_node.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/mnt/working/2023_Learning_Robot/outputs/x86_64/build/dashboard_comm_node/catkin_generated/installspace/dashboard_comm_node.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dashboard_comm_node/cmake" TYPE FILE FILES
-    "/mnt/working/2022_ROS_Swerve_Robot/outputs/x86_64/build/dashboard_comm_node/catkin_generated/installspace/dashboard_comm_nodeConfig.cmake"
-    "/mnt/working/2022_ROS_Swerve_Robot/outputs/x86_64/build/dashboard_comm_node/catkin_generated/installspace/dashboard_comm_nodeConfig-version.cmake"
+    "/mnt/working/2023_Learning_Robot/outputs/x86_64/build/dashboard_comm_node/catkin_generated/installspace/dashboard_comm_nodeConfig.cmake"
+    "/mnt/working/2023_Learning_Robot/outputs/x86_64/build/dashboard_comm_node/catkin_generated/installspace/dashboard_comm_nodeConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dashboard_comm_node" TYPE FILE FILES "/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/src/dashboard_comm_node/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dashboard_comm_node" TYPE FILE FILES "/mnt/working/2023_Learning_Robot/catkin_ws/src/dashboard_comm_node/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/mnt/working/2022_ROS_Swerve_Robot/outputs/x86_64/build/dashboard_comm_node/catkin_generated/safe_execute_install.cmake")
+  include("/mnt/working/2023_Learning_Robot/outputs/x86_64/build/dashboard_comm_node/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dashboard_comm_node" TYPE PROGRAM FILES "/mnt/working/2022_ROS_Swerve_Robot/outputs/x86_64/build/dashboard_comm_node/catkin_generated/installspace/dashboard_comm_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dashboard_comm_node" TYPE PROGRAM FILES "/mnt/working/2023_Learning_Robot/outputs/x86_64/build/dashboard_comm_node/catkin_generated/installspace/dashboard_comm_node")
 endif()
 

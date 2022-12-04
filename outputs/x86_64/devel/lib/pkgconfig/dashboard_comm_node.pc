@@ -1,4 +1,4 @@
-prefix=/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/devel
+prefix=/mnt/working/2023_Learning_Robot/catkin_ws/devel
 
 Name: dashboard_comm_node
 Description: Description of dashboard_comm_node

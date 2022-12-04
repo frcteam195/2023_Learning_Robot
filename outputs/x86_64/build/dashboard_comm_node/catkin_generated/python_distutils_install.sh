@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/src/dashboard_comm_node"
+echo_and_run cd "/mnt/working/2023_Learning_Robot/catkin_ws/src/dashboard_comm_node"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/mnt/working/2023_Learning_Robot/catkin_ws/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/install/lib/python3/dist-packages:/mnt/working/2022_ROS_Swerve_Robot/outputs/x86_64/build/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/mnt/working/2022_ROS_Swerve_Robot/outputs/x86_64/build" \
+    PYTHONPATH="/mnt/working/2023_Learning_Robot/catkin_ws/install/lib/python3/dist-packages:/mnt/working/2023_Learning_Robot/outputs/x86_64/build/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/mnt/working/2023_Learning_Robot/outputs/x86_64/build" \
     "/usr/bin/python3" \
-    "/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/src/dashboard_comm_node/setup.py" \
+    "/mnt/working/2023_Learning_Robot/catkin_ws/src/dashboard_comm_node/setup.py" \
      \
-    build --build-base "/mnt/working/2022_ROS_Swerve_Robot/outputs/x86_64/build/dashboard_comm_node" \
+    build --build-base "/mnt/working/2023_Learning_Robot/outputs/x86_64/build/dashboard_comm_node" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/install" --install-scripts="/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/install/bin"
+    --install-layout=deb --prefix="/mnt/working/2023_Learning_Robot/catkin_ws/install" --install-scripts="/mnt/working/2023_Learning_Robot/catkin_ws/install/bin"

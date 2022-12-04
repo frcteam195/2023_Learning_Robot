@@ -1,2 +1,2 @@
-dashboard_comm_node
--DROBOT_ARCHITECTURE_X86_64=TRUE -DCMAKE_CXX_FLAGS=-Werror -Wall -Wextra -DCATKIN_ENABLE_TESTING=0 -DCATKIN_DEVEL_PREFIX=/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/install -G Unix Makefiles
+2023_Learning_sim_node:ck_utilities_node:dashboard_comm_node:frc_robot_utilities_py_node:hmi_agent_node:network_tables_node:rio_control_node
+-DROBOT_ARCHITECTURE_X86_64=TRUE -DCMAKE_CXX_FLAGS=-Werror -Wall -Wextra -DCATKIN_ENABLE_TESTING=0 -DCATKIN_DEVEL_PREFIX=/mnt/working/2023_Learning_Robot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/mnt/working/2023_Learning_Robot/catkin_ws/install -G Unix Makefiles

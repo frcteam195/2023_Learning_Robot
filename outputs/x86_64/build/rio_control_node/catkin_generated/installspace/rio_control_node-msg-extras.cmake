@@ -1,0 +1,2 @@
+set(rio_control_node_MESSAGE_FILES "msg/Joystick.msg;msg/Joystick_Status.msg;msg/Robot_Status.msg;msg/Current_Limit_Configuration.msg;msg/Encoder_Config.msg;msg/Encoder_Configuration.msg;msg/Encoder_Data.msg;msg/Encoder_Sensor_Data.msg;msg/Motor.msg;msg/Motor_Control.msg;msg/Motor_Config.msg;msg/Motor_Configuration.msg;msg/Motor_Info.msg;msg/Motor_Status.msg;msg/IMU_Sensor_Data.msg;msg/IMU_Data.msg;msg/Cal_Override_Mode.msg;msg/Solenoid.msg;msg/Solenoid_Info.msg;msg/Solenoid_Control.msg;msg/Solenoid_Status.msg")
+set(rio_control_node_SERVICE_FILES "")

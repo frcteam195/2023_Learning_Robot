@@ -1,0 +1,7 @@
+set(frc_robot_utilities_py_node_SETUP_PY_SETUP_MODULE "distutils.core")
+set(frc_robot_utilities_py_node_SETUP_PY_VERSION "0.0.1")
+set(frc_robot_utilities_py_node_SETUP_PY_SCRIPTS "")
+set(frc_robot_utilities_py_node_SETUP_PY_PACKAGES "frc_robot_utilities_py_node")
+set(frc_robot_utilities_py_node_SETUP_PY_PACKAGE_DIRS "src/frc_robot_utilities_py_node")
+set(frc_robot_utilities_py_node_SETUP_PY_MODULES "")
+set(frc_robot_utilities_py_node_SETUP_PY_MODULE_DIRS "")

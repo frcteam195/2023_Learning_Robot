@@ -1,0 +1,8 @@
+prefix=/mnt/working/2023_Learning_Robot/catkin_ws/devel
+
+Name: hmi_agent_node
+Description: Description of hmi_agent_node
+Version: 0.0.0
+Cflags: -I/mnt/working/2023_Learning_Robot/catkin_ws/devel/include -I/mnt/working/2023_Learning_Robot/catkin_ws/src/hmi_agent_node/include
+Libs: -L${prefix}/lib -lhmi_agent
+Requires: roscpp message_generation message_runtime rio_control_node ck_utilities_node
