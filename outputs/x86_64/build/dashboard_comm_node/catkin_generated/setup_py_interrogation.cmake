@@ -1,0 +1,7 @@
+set(dashboard_comm_node_SETUP_PY_SETUP_MODULE "distutils.core")
+set(dashboard_comm_node_SETUP_PY_VERSION "0.0.1")
+set(dashboard_comm_node_SETUP_PY_SCRIPTS "")
+set(dashboard_comm_node_SETUP_PY_PACKAGES "dashboard_comm_node")
+set(dashboard_comm_node_SETUP_PY_PACKAGE_DIRS "src/dashboard_comm_node")
+set(dashboard_comm_node_SETUP_PY_MODULES "")
+set(dashboard_comm_node_SETUP_PY_MODULE_DIRS "")

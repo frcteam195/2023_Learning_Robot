@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /mnt/working/2022_ROS_Swerve_Robot/catkin_ws/install/setup.sh

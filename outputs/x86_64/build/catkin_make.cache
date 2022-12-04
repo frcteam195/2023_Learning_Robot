@@ -1,0 +1,2 @@
+dashboard_comm_node
+-DROBOT_ARCHITECTURE_X86_64=TRUE -DCMAKE_CXX_FLAGS=-Werror -Wall -Wextra -DCATKIN_ENABLE_TESTING=0 -DCATKIN_DEVEL_PREFIX=/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/install -G Unix Makefiles

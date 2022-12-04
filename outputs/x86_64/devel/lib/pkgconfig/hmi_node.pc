@@ -1,0 +1,8 @@
+prefix=/mnt/working/2022_ROS_Swerve_Robot/catkin_ws/devel
+
+Name: hmi_node
+Description: Description of hmi_node
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp rospy std_msgs
